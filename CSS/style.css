@@ -1,0 +1,891 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+    /* over flowing body */
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+    /* Header */
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #F5F5F5;
+    padding-bottom: auto;
+}
+    /* Creating a navbar */
+nav{
+    display: flex;
+    list-style: none;
+    font-size: 17.5px;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-bottom: 10px;
+    gap: 30px;
+    margin-right: 40px;
+    
+}
+.logo{
+    width: 200px;
+    margin-right: 610px;
+    padding-left: 50px;
+}
+.home{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 21px;
+    font-weight: 550;
+    color:  #007386 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.home::after{
+   position: absolute;
+   content: "";
+   top: 30px;
+   background: #007386;
+   width: 40%;
+   height: 12%;
+   left: 35%;
+}
+button {
+    transition-duration: 0.4s;
+    width: 95px;
+    color: rgb(255, 255, 255);
+    background: #1a8497;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:hover {
+    background: linear-gradient(90deg, rgb(57, 151, 128) 0%, #007386 100%);
+}
+    /* Creating sections */
+section{
+    padding-top: 120px;
+    padding-left: 50px;
+    height: 347px;
+    background: #fbfbfb;
+}
+.sec{
+    background-color: #F5F5F5;
+}
+section img{
+    width: 550px;
+    padding-left: 750px;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 90px; 
+}
+.textabout{
+color: #666666;
+}
+.p1{
+    color: #969696;
+}
+.sec1{
+    width: 600px;
+    padding-top: 0px; 
+
+}
+    /* First section */
+.sec1 h1{
+    font-size : 50px;
+    padding-bottom: 2px;
+    margin-top: -15px;
+    margin-right: 0px;
+    line-height: 1.5;
+}
+.sec1 p{
+    line-height: 1.5;
+    width: 450px;
+}
+.c{
+    color: #007386;
+}
+.secserviec1 h1{
+    font-size : 50px;
+    padding-bottom: 5px;
+}
+.edf{
+    color: #007386;
+}
+.agadir{
+    display: flex;
+    gap: 155px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.16), inset 2px 2px 17px 0 rgba(0, 0, 0, 0.02);    border-radius: 10px;
+    width: 450px;
+    height: 35px;
+    padding-top: 17px;
+    padding-left: 50px;
+    background-color: #FDFDFA ;
+}
+.agadir .p2{
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(0,115,134) 43%, rgb(0, 169, 124) 100%);
+    border-radius: 15px;
+    width: 100px;
+    height: 17px;
+    padding: 5px;
+    padding-left: 12px;
+    margin-top: -5px;
+    font-size: 13px; 
+}
+.loc{
+    width: 15px;
+    position: absolute;
+    left: -680px; top: 430px;
+}   
+    /* Second section */
+.sec2{
+margin-top: -100px;
+color: #007386;
+font-size: 30px;
+}
+.h4{
+    margin-top: 20px;
+    border-radius: 100px;
+    width: 70px;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #2b4251  ;
+    background-color: #F2F2F2    ;
+}
+.foodico{
+    width: 25px;
+    position: absolute;
+    left: -682px; top: 644px;
+    color: #2b4251; 
+}   
+    /* Creating Boxes  */
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 10px;
+}
+    /* First box  */
+.box1{
+    margin-top: 20px;
+    box-shadow: 0 17px 16px 0 rgba(102, 102, 102, 0.08);
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 15px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-kfc.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 100px;
+}
+.kfc{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.p2kfc{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starkfc{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+    /* Second box */
+.box2{
+    margin-top: 20px;
+    box-shadow: 0 17px 16px 0 rgba(102, 102, 102, 0.08);
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-mc-donald.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 100px;
+}
+    /* Third box */
+.box3{
+    margin-top: 20px;
+    box-shadow: 0 17px 16px 0 rgba(102, 102, 102, 0.08);
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-cool-pizza.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 100px;
+}
+.pizza{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.clothingico{
+    width: 25px;
+    position: absolute;
+    left: -682px; top: 1166px;
+}
+.mac{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.zaf{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.store1ico{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi97{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+.mcdonnld{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starmcdonald{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.store1icodonald{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi250{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+.coollpizza{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starpizzacool{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.storepizzacool{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi102{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+.mcdonnld{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starmcdonald{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.store1icodonald{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi250{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+.zaful{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starzaful{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.storezaful{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.review124{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+.lacoS{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.lacoste{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+}
+.starlacoste{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.storepizzacool{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi353{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+}
+
+.bar3food{
+    width: 80px;
+    position: absolute;
+    left: -100px; top: 1040px;
+} 
+.bar3food1{
+    width: 80px;
+    position: absolute;
+    left: -100px; top: 1518px;
+}
+    
+.bar3food2{
+    width: 80px;
+    position: absolute;
+    left: -100px; top: 1985px;
+}
+.g{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.gucci{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left: 0px;
+    padding-left: 20px;
+}
+
+.stargucci{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+
+.storegucci{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+
+.revi184{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+
+}
+
+/* end gucci */
+
+
+
+
+/* ibnzohr */
+.IBNZOH{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+.ibnzohre{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left: 2px;
+    padding-left: 20px;
+}
+
+.starzohr{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+
+.storzohr{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+
+.review102{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+
+}
+
+/* end ibnzohr */
+
+
+
+/* PHARMACIE FAICEL */
+.FAICEL{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.pharfaicel{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left:  20px;
+
+}
+
+.starfaicel{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+
+.storefaicel{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+
+.revi273{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+
+}
+    /* END FAICEL */
+
+    /* phar assalam */
+.asssalam{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+.phaassalam{
+    color: #121212;
+    font-size: 25px;
+    position: absolute;
+    top: 175px; left: 0px;
+    padding-left: 20px;
+}
+.starssalam{
+    width: 100px;
+    position: absolute;
+    top: 220px; left: -730px;
+}
+.storessalam{
+    width: 50px;
+    position: absolute;
+    top: 205px; right: 7px;
+}
+.revi164{
+    color: #666666;
+    font-size: 20px;
+    position: absolute;
+    top: 215px; left: 135px;
+
+}
+    /* end phar assalam */
+.box4{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-zaful.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.box5{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-lacoste.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.box6{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-gucci.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.zfl{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.lcst{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;  
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.gucci{
+    width: 100%;
+    height: 88px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 25px 25px;
+}
+.box7{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-ibn-zohr.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.phar1{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.box8{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-assalam.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.phar2{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.box9{
+    margin-top: 20px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 20px;
+    width: 330px;
+    height: 150px;
+    padding-top: 13px;
+    padding-left: 50px;
+    background-color: #dfdfdf ;
+    background-image: url(../image/image-faicel.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+}
+.phar3{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff ;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.sec5{
+    gap: 70px;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 17px 16px 0 rgba(102, 102, 102, 0.08);
+    border-radius: 20px;
+    width: 1190px;
+    height: 300px;
+    padding-top: 13px;
+    padding-left: 50px;
+}
+.sec5 h1{
+    padding-top: 50px;
+    font-size: 35px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+.sec5 .c{
+    font-size: 50px;
+}
+.sec5 p{
+    width: 550px;
+    font-size: large;
+    margin-right: 40px;
+    line-height: 1.8;
+}
+.map{
+    margin-top: -12.5px;
+    box-shadow: 0px 17px 16px #66666614;
+    border-radius: 0px 20px 20px 0px;
+    width: 755px;
+    height: auto;
+    padding-top: 18px;
+    padding-left: 10px;
+    background-color: #dfdfdf ;
+    /* background-repeat: no-repeat; */
+    background-image: url(../image/Maps/image-map.png);
+    background-size: contain;
+    position: relative;
+    padding-bottom: 100px;
+    margin-right: -20px;
+    
+}
+.sec5 h1{
+    font-size : 40px;
+    padding-bottom: 0px;
+    margin-top: -50px;
+}
+.sec5 h1{
+    font-size : 40px;
+    padding-bottom: 0px;
+    margin-top: -50px;
+}
+.grezo{
+    color: #007386;
+}
+.chat{
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 450px;
+}
+.chat h3{
+    margin-left: 75px;
+}
+h5{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+input{
+    border: solid 0.5px;
+    border-radius: 5px;
+    width: 600px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.all{
+    display: flex;
+}
+.msg{
+    height: 200px;
+}
+.sec6 h1{
+    font-size: 30px;
+    color: #1a8497;
+    margin-left: 100px;
+}
+.chat{
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 470px;
+}
+.chat h3{
+    margin-left: -18px;
+    font-size: 40px;
+}
+h5{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+input{
+    outline: none;
+    padding-left: 10px;
+    border: solid 0.5px #007386;
+    border-radius: 5px;
+    width: 600px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.all{
+    display: flex;
+}
+.msg{
+    height: 200px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 300px;
+    background-color: #2B4251;
+    gap: 120px;
+    color: #ffffff;
+}
+footer h5{
+    margin-top: 120px;
+    font-size: 18x;
+    font-weight: 150;
+}
+footer a{
+    color: #ffffff;
+    line-height: 2;
+    margin-left: 30px;
+    font-size: 12px;
+}
+footer img{
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    
+}
+.store .app{
+    width: 170px;
+    padding-top: 60px;
+    margin-left: -60px;
+    line-height: 0;
+}
+.store .play{
+    width: 200px;
+    margin-top: 10px;
+    /* padding-bottom: 10px; */
+    margin-left: -60px;
+    line-height: 0;  
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.257" height="65.257" viewBox="0 0 65.257 65.257">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="65.257" height="65.257" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#4d6dae" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_933" data-name="Groupe 933" transform="translate(-447.619 -280.948)">
+    <g transform="matrix(1, 0, 0, 1, 447.62, 280.95)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="17.629" cy="17.629" r="17.629" transform="translate(15 15)" fill="#007386"/>
+    </g>
+    <g id="shopping-cart" transform="translate(472.679 306.67)">
+      <path id="Tracé_1653" data-name="Tracé 1653" d="M15.388,44.7a1.079,1.079,0,0,0-.849-.407H11.531L9.9,40.557a.458.458,0,1,0-.839.366l1.471,3.369H5.088l1.471-3.369a.458.458,0,1,0-.839-.366L4.089,44.293H1.081a1.079,1.079,0,0,0-.849.407,1.054,1.054,0,0,0-.2.9l1.606,7.017a1.072,1.072,0,0,0,1.054.832H12.933a1.072,1.072,0,0,0,1.054-.832L15.593,45.6A1.054,1.054,0,0,0,15.388,44.7Zm-2.455,7.83H2.687a.164.164,0,0,1-.162-.121L.919,45.392a.14.14,0,0,1,.029-.122.166.166,0,0,1,.133-.062H3.689l-.12.274a.458.458,0,1,0,.839.366l.28-.641h6.244l.28.641a.458.458,0,0,0,.839-.366l-.12-.274h2.609a.166.166,0,0,1,.133.062.14.14,0,0,1,.029.122l-1.606,7.017A.164.164,0,0,1,12.933,52.53Z" transform="translate(0 -40.283)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,266 @@
+@media(max-width: 414px) {
+    *{
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        background-color: #F5F5F5;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    nav{
+        display: flex;
+        font-size: 13px;
+        width: 414px;
+        
+    }
+    nav  ul {
+        display: flex;
+        align-items: center;
+        margin-bottom: -10px;
+        margin-left: 80px;
+        gap: 15px;
+        width: 90px;
+        
+    }
+    .ser{
+        display: none;
+    }
+    .logo{
+        width: 130px;
+        padding-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .man{
+        width: 340px;
+        position: absolute;
+        left: 15px; top: -280px;
+        padding: 20px;
+    }
+    .sec{
+        width: 350px;
+        position: absolute;
+        right: -40px; top: 350px;
+        padding: 50px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+    .sec1 h1{
+        width: 350px;
+        font-size: 30px;
+        /* margin-right: 0px; */
+    }
+    .sec p{
+        width: 330px;
+    }
+    .sec .p1{
+        width: 350px;
+        font-size: 20px;
+    }
+    .agadir{
+        width: 280px;
+    }
+    .agadir .p2{
+        position: absolute;
+        top: 290px; right: 186px;
+        width: 80px;
+    }
+    .loc{
+        position: absolute;
+        top: 245px; right: 186px;
+        width: 15px;
+    }
+    .s2{
+        position: absolute;
+        top: 665px;
+        width: 350px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    .box1{
+        width: 283px;
+
+    }
+    .box2{
+        width: 283px;
+    }
+    .box3{
+        width: 283px;
+    }
+    .kfc{
+        margin-bottom: 14px;
+    }
+    .mac{
+        margin-bottom: 14px;
+    }
+    .box4{
+        width: 277px;
+        background-repeat: no-repeat;
+    }
+    .box5{
+        width: 277px;
+        background-repeat: no-repeat;
+    }
+    .box6{
+        width: 277px;
+        background-repeat: no-repeat;
+    }
+    .sec3{
+        position: absolute;
+        top: 1780px;
+        width: 350px;
+    }
+    .zaf{
+        margin-bottom: 14px;
+    }
+    .lacoS{
+        margin-bottom: 14px;
+    }
+    .g{
+        margin-bottom: 14px;
+    }
+
+    .sec4{
+        position: absolute;
+        top: 2920px;
+        width: 350px;
+    }
+    .box7{
+        width: 285px;
+        background-repeat: no-repeat;
+    }
+    .box8{
+        width: 277px;
+        background-repeat: no-repeat;
+    }
+    .box9{
+        width: 277px;
+        background-repeat: no-repeat;
+    }
+    .IBNZOH{
+        margin-bottom: 14px;
+    }
+    .FAICEL{
+        margin-bottom: 14px;
+    }
+    .asssalam{
+        margin-bottom: 14px;
+    }
+    .sec5{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4000px; left: -51px;
+    }
+    .map{
+        display: none;
+    }
+    .sec5 h1 {
+        padding-top: 50px;
+        font-size: 35px;
+        width: 350px;
+    }
+    .sec5 p{
+        width: 350px;
+    }
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4425px; left: -504px;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    .sec6 h1{
+        width: 350px;
+        padding-left: 20px;
+    }
+    .sec6 h3{
+        width: 350px;
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    input{
+        width: 350px;
+        height: 50px;
+
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: -460px;
+    }
+    .subject{
+        width: 350px;
+    }
+    .name{
+        width: 300px;
+    }
+    .bar3food{
+        display: none;
+    }
+    .bar3food1{
+        display: none;
+    }
+    .bar3food2{
+        display: none;
+    }
+    .messag{
+        display: none;
+    }
+    footer{
+        width: 430px;
+        position: absolute;
+        top: 4926px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer img{
+        width: 170px;
+        margin-bottom: -40px;
+        margin-left: 130px;
+        /* padding-top: opx; */
+    }
+    .h{
+        position: absolute;
+        bottom: 186px;
+        height: 100px;
+    }
+    .h a{
+        font-size: 16px;
+    }
+    .h h5{
+        font-size: 19px;
+    }
+    .tabiaa{
+        display: none;
+    }
+    .store .app{
+        width: 130px;
+        position: absolute;
+        right: 26px;
+        top: 40px;
+    }
+    .store .play{
+        width: 135px;
+        position: absolute;
+        right: 30px;
+        top: 200px;
+    }
+    .y{
+        display: none;
+    }
+}

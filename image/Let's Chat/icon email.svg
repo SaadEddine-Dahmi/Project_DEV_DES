@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.155" height="27.089" viewBox="0 0 36.155 27.089">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.341" x2="0" y2="0.365" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a97c"/>
+      <stop offset="1" stop-color="#007386" stop-opacity="0.631"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_email" data-name="icon email" transform="translate(-2191 -5593)">
+    <path id="Tracé_363" data-name="Tracé 363" d="M17.3,190.077V173.423a1.358,1.358,0,0,1,.186.085q7.331,4.882,14.669,9.779a5.422,5.422,0,0,0,6.426.008q7.249-4.824,14.5-9.663c.1-.07.21-.132.365-.233v16.2a2.962,2.962,0,0,1-.031.458,3.328,3.328,0,0,1-3.419,2.843H28.714c-2.673,0-5.338.008-8.011,0a3.175,3.175,0,0,1-2.789-1.445A7.274,7.274,0,0,1,17.3,190.077Z" transform="translate(2173.7 5427.189)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_364" data-name="Tracé 364" d="M17.3,78.512c.054-.179.109-.357.163-.528A3.361,3.361,0,0,1,20.517,75.7H49.948a3.272,3.272,0,0,1,3.162,1.9,3.166,3.166,0,0,1-1.119,4.1c-1.663,1.126-3.341,2.237-5.011,3.348q-4.732,3.158-9.471,6.315a3.373,3.373,0,0,1-4.273,0c-4.6-3.06-9.184-6.136-13.8-9.181a4.3,4.3,0,0,1-2.137-2.61Z" transform="translate(2173.7 5517.3)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="Groupe_894" data-name="Groupe 894" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.62" height="24.114" viewBox="0 0 141.62 24.114">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc948"/>
+      <stop offset="1" stop-color="#ffc948"/>
+      <stop offset="1" stop-color="#782600"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.438" x2="1" y2="0.438" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M12.687.838,9.612,7.073l-6.88,1A1.508,1.508,0,0,0,1.9,10.647L6.876,15.5,5.7,22.35a1.506,1.506,0,0,0,2.185,1.587L14.039,20.7l6.155,3.235a1.507,1.507,0,0,0,2.185-1.587L21.2,15.5l4.978-4.851a1.508,1.508,0,0,0-.834-2.571l-6.88-1L15.39.838a1.508,1.508,0,0,0-2.7,0Z" transform="translate(-1.441 0.001)" fill="url(#linear-gradient)"/>
+  <path id="Icon_awesome-star-2" data-name="Icon awesome-star" d="M12.687.838,9.612,7.073l-6.88,1A1.508,1.508,0,0,0,1.9,10.647L6.876,15.5,5.7,22.35a1.506,1.506,0,0,0,2.185,1.587L14.039,20.7l6.155,3.235a1.507,1.507,0,0,0,2.185-1.587L21.2,15.5l4.978-4.851a1.508,1.508,0,0,0-.834-2.571l-6.88-1L15.39.838a1.508,1.508,0,0,0-2.7,0Z" transform="translate(27.665 0.001)" fill="url(#linear-gradient)"/>
+  <path id="Icon_awesome-star-3" data-name="Icon awesome-star" d="M12.687.838,9.612,7.073l-6.88,1A1.508,1.508,0,0,0,1.9,10.647L6.876,15.5,5.7,22.35a1.506,1.506,0,0,0,2.185,1.587L14.039,20.7l6.155,3.235a1.507,1.507,0,0,0,2.185-1.587L21.2,15.5l4.978-4.851a1.508,1.508,0,0,0-.834-2.571l-6.88-1L15.39.838a1.508,1.508,0,0,0-2.7,0Z" transform="translate(56.771 0.001)" fill="url(#linear-gradient-3)"/>
+  <path id="Icon_awesome-star-4" data-name="Icon awesome-star" d="M12.687.838,9.612,7.073l-6.88,1A1.508,1.508,0,0,0,1.9,10.647L6.876,15.5,5.7,22.35a1.506,1.506,0,0,0,2.185,1.587L14.039,20.7l6.155,3.235a1.507,1.507,0,0,0,2.185-1.587L21.2,15.5l4.978-4.851a1.508,1.508,0,0,0-.834-2.571l-6.88-1L15.39.838a1.508,1.508,0,0,0-2.7,0Z" transform="translate(85.878 0.001)" opacity="0.3" fill="url(#linear-gradient)"/>
+  <path id="Icon_awesome-star-5" data-name="Icon awesome-star" d="M12.687.838,9.612,7.073l-6.88,1A1.508,1.508,0,0,0,1.9,10.647L6.876,15.5,5.7,22.35a1.506,1.506,0,0,0,2.185,1.587L14.039,20.7l6.155,3.235a1.507,1.507,0,0,0,2.185-1.587L21.2,15.5l4.978-4.851a1.508,1.508,0,0,0-.834-2.571l-6.88-1L15.39.838a1.508,1.508,0,0,0-2.7,0Z" transform="translate(114.984 0.001)" opacity="0.3" fill="url(#linear-gradient)"/>
+</svg>
