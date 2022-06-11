@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     padding-top: 20px;
-    background-color: #F5F5F5;
+    background-color: #e6e6e6;
     padding-bottom: auto;
 }
     /* Creating a navbar */
@@ -33,7 +33,6 @@ nav > ul {
     margin-bottom: 10px;
     gap: 30px;
     margin-right: 40px;
-    
 }
 .logo{
     width: 200px;
@@ -50,7 +49,6 @@ nav > ul {
 a{
     text-decoration: none;
     color: black;
-
 }
 .home::after{
    position: absolute;
@@ -83,7 +81,7 @@ section{
     background: #fbfbfb;
 }
 .sec{
-    background-color: #F5F5F5;
+    background-color: #e6e6e6;
 }
 section img{
     width: 550px;
@@ -105,7 +103,7 @@ color: #666666;
 }
     /* First section */
 .sec1 h1{
-    font-size : 50px;
+    font-size : 60px;
     padding-bottom: 2px;
     margin-top: -15px;
     margin-right: 0px;
@@ -151,7 +149,7 @@ color: #666666;
 .loc{
     width: 15px;
     position: absolute;
-    left: -680px; top: 430px;
+    left: -680px; top: 473px;
 }   
     /* Second section */
 .sec2{
@@ -412,7 +410,6 @@ font-size: 30px;
     position: absolute;
     top: 215px; left: 135px;
 }
-
 .bar3food{
     width: 80px;
     position: absolute;
@@ -423,7 +420,6 @@ font-size: 30px;
     position: absolute;
     left: -100px; top: 1518px;
 }
-    
 .bar3food2{
     width: 80px;
     position: absolute;
@@ -445,31 +441,24 @@ font-size: 30px;
     top: 175px; left: 0px;
     padding-left: 20px;
 }
-
 .stargucci{
     width: 100px;
     position: absolute;
     top: 220px; left: -730px;
 }
-
 .storegucci{
     width: 50px;
     position: absolute;
     top: 205px; right: 7px;
 }
-
 .revi184{
     color: #666666;
     font-size: 20px;
     position: absolute;
     top: 215px; left: 135px;
-
 }
 
 /* end gucci */
-
-
-
 
 /* ibnzohr */
 .IBNZOH{
@@ -778,11 +767,6 @@ font-size: 30px;
     padding-bottom: 0px;
     margin-top: -50px;
 }
-.sec5 h1{
-    font-size : 40px;
-    padding-bottom: 0px;
-    margin-top: -50px;
-}
 .grezo{
     color: #007386;
 }
@@ -791,19 +775,8 @@ font-size: 30px;
     margin-bottom: 30px;
     margin-left: 450px;
 }
-.chat h3{
-    margin-left: 75px;
-}
 h5{
     margin-bottom: 10px;
-    margin-left: 30px;
-}
-input{
-    border: solid 0.5px;
-    border-radius: 5px;
-    width: 600px;
-    height: 35px;
-    margin-bottom: 20px;
     margin-left: 30px;
 }
 .all{
@@ -817,18 +790,9 @@ input{
     color: #1a8497;
     margin-left: 100px;
 }
-.chat{
-    align-items: center;
-    margin-bottom: 30px;
-    margin-left: 470px;
-}
 .chat h3{
     margin-left: -18px;
     font-size: 40px;
-}
-h5{
-    margin-bottom: 10px;
-    margin-left: 30px;
 }
 input{
     outline: none;
@@ -839,12 +803,6 @@ input{
     height: 35px;
     margin-bottom: 20px;
     margin-left: 30px;
-}
-.all{
-    display: flex;
-}
-.msg{
-    height: 200px;
 }
 footer{
     display: flex;
